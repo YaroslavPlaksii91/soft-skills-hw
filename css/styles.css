@@ -1,0 +1,89 @@
+body {
+  background-color: #ecf2f5;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 4px 4px 4px 4px hsla(0, 0%, 1%, 0.2);
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+i {
+  font-size: 18px;
+}
+
+.fname {
+  color: #019fb8;
+}
+
+.sname {
+  color: #d7631a;
+}
+
+.hero {
+  text-align: center;
+  margin: 50px;
+}
+
+.about {
+  background-color: rgb(250, 249, 249);
+  text-align: center;
+}
+
+.list {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  height: 65vh;
+}
+
+.list li {
+  flex: 1 0 30%;
+}
+
+.about li {
+  list-style-type: none;
+}
+
+.homework {
+  margin: 50px;
+}
+
+.homework p,
+.homework h2 {
+  text-align: center;
+}
+
+.nomark {
+  font-size: 17px;
+  list-style-type: none;
+}
+.nomark a {
+  color: #019fb8;
+  text-decoration: none;
+}
+.header {
+  color: #019fb8;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.header__link a {
+  color: #019fb8;
+  text-decoration: none;
+}
