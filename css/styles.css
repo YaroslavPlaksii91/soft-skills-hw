@@ -1,10 +1,12 @@
 body {
-  background-color: #ecf2f5;
+  background-color: #e3edf1;
 }
 
 body {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  text-shadow: 2px 2px 4px #e4dddd;
   width: 1200px;
   margin: 0 auto;
   padding-top: 10px;
@@ -168,4 +170,9 @@ i {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+}
+.mindmap {
+  text-align: center;
+  color: #019fb8;
+  font-weight: bold;
 }
